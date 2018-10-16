@@ -10,5 +10,6 @@ namespace VehicleTemplate
         string Type { set; get; }
         double TimeTarif { set; get; }
         int NumberOfSeats { set; get; }
+
     }
 }

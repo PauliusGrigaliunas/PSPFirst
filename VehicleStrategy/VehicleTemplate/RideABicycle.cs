@@ -16,7 +16,7 @@ namespace VehicleStrategy
             _rent = rent;
             _rent.Time = time;
         }
-        public void ReturnVehile()
+        public void MakeADeal()
         {
             Console.WriteLine("Name - " + _bicycle.Name);
             Console.WriteLine("Price - " + Math.Round(_rent.CountThePrice(_bicycle), 2) + @"€");

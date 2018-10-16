@@ -11,10 +11,11 @@ namespace VehicleTemplate
         public double TimeTarif { get; set; }
         public int NumberOfSeats { get; set; }
 
-        public Bicycle(string name, string type, double timeTarif, int numberOfSeats) {
+        public Bicycle(string name, string type, int numberOfSeats, double timeTarif)
+        {
             Name = name;
             Type = type;
-            TimeTarif  = timeTarif;
+            TimeTarif = timeTarif;
             NumberOfSeats = numberOfSeats;
         }
     }

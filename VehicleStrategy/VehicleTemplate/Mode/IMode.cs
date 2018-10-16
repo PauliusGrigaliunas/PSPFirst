@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VehicleStrategy.Ecology
+namespace VehicleStrategy
 {
     public interface IMode
     {

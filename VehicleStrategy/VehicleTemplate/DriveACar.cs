@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using VehicleStrategy.Ecology;
 
 namespace VehicleStrategy
 {
@@ -21,7 +20,7 @@ namespace VehicleStrategy
             _mode = mode;
 
         }
-        public void ReturnVehile()
+        public void MakeADeal()
         {
             
             Console.WriteLine("Name - " + _car.Name);
