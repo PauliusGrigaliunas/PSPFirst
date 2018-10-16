@@ -10,25 +10,18 @@ namespace VehicleStrategy
         public double Distance { get; set; }
         public bool VehileNeedFuels { get ; set; }
 
-        public IVehile Vehile { get; set; }
-
-        public RentUntilDay(IVehile vehile) {
-            Vehile = vehile;
-        }
-
-
-        public double PollutionToNature()
+        public double Discount(IVehile vehile)
         {
-            if (Vehile.Type == "Electricity" || Vehile.Type == "Eco") return 0;
-            else return Distance * 0.2;
+            if (vehile.Type == "Electricity" || vehile.Type == "Eco") return CountThePrice(vehile)* 0.1;
+            else return 0;
         }
 
-        public double CountThePrice()
+        public double CountThePrice(IVehile vehile)
         {
-            return Vehile.TimeTarif * Time;
+            return vehile.TimeTarif * Time;
         }
 
-        public bool AdditionalServices()
+        public bool AdditionalServices(IVehile vehile)
         {
             return false;
         }
