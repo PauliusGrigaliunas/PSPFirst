@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VehicleStrategy
 {
-    class RideABicycle
+    public class RideABicycle
     {
         private IRent _rent;
         private Bicycle _bicycle;

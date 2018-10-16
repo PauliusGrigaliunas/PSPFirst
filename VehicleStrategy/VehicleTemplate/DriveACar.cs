@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VehicleStrategy
 {
-    class DriveACar
+    public class DriveACar
     {
         public double Distance { get; set; }
 
@@ -18,6 +18,7 @@ namespace VehicleStrategy
             _rent = rent;
             _rent.Time = time;
             _mode = mode;
+            Distance = distance;
 
         }
         public void MakeADeal()

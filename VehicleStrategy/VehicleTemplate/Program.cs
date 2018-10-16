@@ -15,7 +15,7 @@ namespace VehicleStrategy
             var rentFirstCar = new DriveACar(AudiA6, new RentUntilDay(), new SimpleMode(), 10, 5);
             rentFirstCar.MakeADeal();
 
-            var rentSecondCar = new DriveACar(BMV535, new RentUntilMonth(), new SimpleMode(), 8*1440, 123);
+            var rentSecondCar = new DriveACar(BMV535, new RentUntilMonth(), new TurboMode(), 8*1440, 123);
             rentSecondCar.MakeADeal();
 
             var rentThirdCar = new DriveACar(Tesla, new RentUntilMonth(), new SimpleMode(), 30*1440, 74);
