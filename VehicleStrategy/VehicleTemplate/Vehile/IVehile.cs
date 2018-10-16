@@ -9,7 +9,6 @@ namespace VehicleStrategy
         string Name { set; get; }
         string Type { set; get; }
         double TimeTarif { set; get; }
-        double DistanceTarif { set; get; }
         int NumberOfSeats { set; get; }
 
     }

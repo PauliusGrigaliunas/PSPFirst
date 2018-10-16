@@ -1,35 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using VehicleStrategy.Discount;
+using VehicleStrategy.Ecology;
 
 namespace VehicleStrategy
 {
     class DriveACar
     {
-        private IRent _rent;
-        private IDiscount _discount;
+        public double Distance { get; set; }
 
-        public DriveACar(IRent rent, IDiscount discount, double time = 0, double distance = 0)
+        private IRent _rent;
+        private IMode _mode;
+        private Car _car;
+
+        public DriveACar(Car car, IRent rent, IMode mode, double time = 0, double distance = 0)
         {
-            _discount = discount;
+            _car = car;
             _rent = rent;
             _rent.Time = time;
-            _rent.Distance = distance;
+            _mode = mode;
+
         }
-        public void UseVehile()
+        public void ReturnVehile()
         {
             
-            Console.WriteLine("Name - " + _rent.Vehile.Name);
-            Console.WriteLine("Price - " + _rent.CountThePrice() + @"€");
-
-            if (_discount != null) { 
-            Console.WriteLine("Discount - " + _discount.MakeDiscount(_rent));
-            Console.WriteLine("Price with Discount - " + (_rent.CountThePrice() - _discount.MakeDiscount(_rent)) + @"€");
-            }
-
-            Console.WriteLine("How much polution is made to nature - " + _rent.PollutionToNature());
-            Console.WriteLine("AdditionalService - " + _rent.AdditionalServices().ToString());
+            Console.WriteLine("Name - " + _car.Name);
+            Console.WriteLine("Price - " + Math.Round(_rent.CountThePrice(_car), 2) + @"€");
+            Console.WriteLine("Discount - " + Math.Round( _rent.Discount(_car), 2) + @"€");
+            Console.WriteLine("Real price - " + Math.Round(_rent.CountThePrice(_car)-_rent.Discount(_car), 2) + @"€");
+            Console.WriteLine("AdditionalService - " + _rent.AdditionalServices(_car).ToString());
+            Console.WriteLine("How much polution is made to nature - " + _mode.PollutionAmount(_car, Distance));
+            
             Console.WriteLine();
         }
 
