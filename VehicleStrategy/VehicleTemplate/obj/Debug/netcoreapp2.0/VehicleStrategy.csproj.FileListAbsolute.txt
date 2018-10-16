@@ -1,0 +1,11 @@
+C:\Users\Paulius\Desktop\PSP\VehicleStrategy\VehicleTemplate\bin\Debug\netcoreapp2.0\VehicleStrategy.deps.json
+C:\Users\Paulius\Desktop\PSP\VehicleStrategy\VehicleTemplate\bin\Debug\netcoreapp2.0\VehicleStrategy.runtimeconfig.json
+C:\Users\Paulius\Desktop\PSP\VehicleStrategy\VehicleTemplate\bin\Debug\netcoreapp2.0\VehicleStrategy.runtimeconfig.dev.json
+C:\Users\Paulius\Desktop\PSP\VehicleStrategy\VehicleTemplate\bin\Debug\netcoreapp2.0\VehicleStrategy.dll
+C:\Users\Paulius\Desktop\PSP\VehicleStrategy\VehicleTemplate\bin\Debug\netcoreapp2.0\VehicleStrategy.pdb
+C:\Users\Paulius\Desktop\PSP\VehicleStrategy\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleStrategy.csprojAssemblyReference.cache
+C:\Users\Paulius\Desktop\PSP\VehicleStrategy\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleStrategy.csproj.CoreCompileInputs.cache
+C:\Users\Paulius\Desktop\PSP\VehicleStrategy\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleStrategy.AssemblyInfoInputs.cache
+C:\Users\Paulius\Desktop\PSP\VehicleStrategy\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleStrategy.AssemblyInfo.cs
+C:\Users\Paulius\Desktop\PSP\VehicleStrategy\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleStrategy.dll
+C:\Users\Paulius\Desktop\PSP\VehicleStrategy\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleStrategy.pdb
