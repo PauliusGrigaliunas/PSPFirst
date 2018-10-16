@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paulius\\Desktop\\PSP\\VehicleStrategy\\VehicleTemplate\\VehicleStrategy.csproj",
+      "projectUniqueName": "C:\\Users\\Paulius\\Documents\\GitHub\\PSPFirst\\VehicleStrategy\\VehicleTemplate\\VehicleStrategy.csproj",
       "projectName": "VehicleStrategy",
-      "projectPath": "C:\\Users\\Paulius\\Desktop\\PSP\\VehicleStrategy\\VehicleTemplate\\VehicleStrategy.csproj",
+      "projectPath": "C:\\Users\\Paulius\\Documents\\GitHub\\PSPFirst\\VehicleStrategy\\VehicleTemplate\\VehicleStrategy.csproj",
       "packagesPath": "C:\\Users\\Paulius\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paulius\\Desktop\\PSP\\VehicleStrategy\\VehicleTemplate\\obj\\",
+      "outputPath": "C:\\Users\\Paulius\\Documents\\GitHub\\PSPFirst\\VehicleStrategy\\VehicleTemplate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
