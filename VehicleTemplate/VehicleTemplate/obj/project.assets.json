@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paulius\\Desktop\\PSP\\VehicleTemplate\\VehicleTemplate\\VehicleTemplate.csproj",
+      "projectUniqueName": "C:\\Users\\Paulius\\Documents\\GitHub\\PSPFirst\\VehicleTemplate\\VehicleTemplate\\VehicleTemplate.csproj",
       "projectName": "VehicleTemplate",
-      "projectPath": "C:\\Users\\Paulius\\Desktop\\PSP\\VehicleTemplate\\VehicleTemplate\\VehicleTemplate.csproj",
+      "projectPath": "C:\\Users\\Paulius\\Documents\\GitHub\\PSPFirst\\VehicleTemplate\\VehicleTemplate\\VehicleTemplate.csproj",
       "packagesPath": "C:\\Users\\Paulius\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paulius\\Desktop\\PSP\\VehicleTemplate\\VehicleTemplate\\obj\\",
+      "outputPath": "C:\\Users\\Paulius\\Documents\\GitHub\\PSPFirst\\VehicleTemplate\\VehicleTemplate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
