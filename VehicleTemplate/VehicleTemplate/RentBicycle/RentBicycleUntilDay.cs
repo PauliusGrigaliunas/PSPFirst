@@ -4,30 +4,27 @@ using System.Text;
 
 namespace VehicleTemplate
 {
-    class RentBicycleUntilDay : RentVehile
+    public class RentBicycleUntilDay : RentBicycle
     {
-        public RentBicycleUntilDay(Bicycle bicycle, double time = 0) 
+        public RentBicycleUntilDay(Bicycle bicycle, double time = 0) : base(bicycle, time)
         {
-            Vehile = bicycle;
-            Time = time;
         }
+
 
         public override bool AdditionalServices()
         {
             return false;
         }
 
-
         public override double CountThePrice()
         {
-            return Vehile.TimeTarif * Time;
+            return Bicycle.TimeTarif * Time;
         }
 
         public override double Discount()
         {
-            if (Vehile.Type == "Electricity" || Vehile.Type == "Eco") return CountThePrice() * 0.1;
+            if (Bicycle.Type == "Electricity" || Bicycle.Type == "Eco") return CountThePrice() * 0.1;
             else return 0;
         }
-
     }
 }

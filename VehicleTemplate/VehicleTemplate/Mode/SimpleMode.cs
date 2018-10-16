@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VehicleTemplate
 {
-    class SimpleMode : IMode
+    public class SimpleMode : IMode
     {
         public double PollutionAmount(Car car, double distance)
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VehicleTemplate
 {
-    class Bicycle : IVehile
+    public class Bicycle : IVehile
     {
         public string Name { get; set; }
         public string Type { get; set; }

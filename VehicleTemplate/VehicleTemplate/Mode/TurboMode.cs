@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VehicleTemplate.Mode
+namespace VehicleTemplate
 {
-    class TurboMode : IMode
+    public class TurboMode : IMode
     {
         public double PollutionAmount(Car car, double distance)
         {

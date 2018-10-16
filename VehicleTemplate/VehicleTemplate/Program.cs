@@ -12,16 +12,16 @@ namespace VehicleTemplate
             var BMX = new Bicycle("BMX", "ECO", 1, 0.08);
 
 
-            var rentFirstCar = new RentCarUntilDay(AudiA6, new SimpleMode(), 10, 5);
+            var rentFirstCar = new RentCarInSimpleModeUntilDay(AudiA6, 10, 5);
             rentFirstCar.MakeADeal();
 
-            var rentSecondCar = new RentCarUntilMonth(BMV535, new SimpleMode(), 8 * 1440, 123);
+            var rentSecondCar = new RentCarInSimpleModeUnilMonth( BMV535, 8 * 1440, 123);
             rentSecondCar.MakeADeal();
 
-            var rentThirdCar = new RentCarUntilMonth(Tesla, new SimpleMode(), 30 * 1440, 74);
+            var rentThirdCar = new RentCarInSimpleModeUnilMonth(Tesla, 30 * 1440, 74);
             rentThirdCar.MakeADeal();
 
-            var rentFirstBicycle = new RentBicycleUntilDay(BMX, 30);
+            var rentFirstBicycle = new RentBicycleUntilDay (BMX, 30);
             rentFirstBicycle.MakeADeal();
         }
     }
