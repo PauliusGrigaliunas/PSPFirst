@@ -8,7 +8,6 @@ namespace VehicleStrategy
     {
         public double Time { get; set; }
         public double Distance { get; set; }
-        public bool VehileNeedFuels { get ; set; }
 
         public double Discount(IVehile vehile)
         {
