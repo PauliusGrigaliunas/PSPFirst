@@ -18,10 +18,8 @@ namespace VehicleTemplate
         }
         protected abstract double CountThePrice();
         protected abstract double Discount();
-        protected virtual bool AdditionalServices() {
-            return false;
-        }
-
+        protected abstract bool AdditionalServices();
+        protected abstract double PollutionAmount(Car car, double distance);
 
         public virtual void MakeADeal()
         {
