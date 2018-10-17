@@ -7,7 +7,6 @@ namespace VehicleTemplate
      public abstract class RentCar
     {
         public Car Car { set; get; }
-        public IMode Mode { get; set; }
         public double Time { get; set; } //min.      
         public double Distance { get; set; }
 
@@ -30,7 +29,6 @@ namespace VehicleTemplate
             Console.WriteLine("Discount - " + Math.Round(Discount(), 2) + @"€");
             Console.WriteLine("Real price - " + Math.Round(CountThePrice() - Discount(), 2) + @"€");
             Console.WriteLine("AdditionalService - " + AdditionalServices().ToString());
-            Console.WriteLine("How much polution is made to nature - " + Mode.PollutionAmount(Car, Distance));
             
         }
     }
