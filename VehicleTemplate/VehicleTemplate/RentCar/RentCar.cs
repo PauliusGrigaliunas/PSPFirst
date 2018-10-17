@@ -16,9 +16,11 @@ namespace VehicleTemplate
             Time = time;
             Distance = distance;
         }
-        public abstract double CountThePrice();
-        public abstract double Discount();
-        public abstract bool AdditionalServices();
+        protected abstract double CountThePrice();
+        protected abstract double Discount();
+        protected virtual bool AdditionalServices() {
+            return false;
+        }
 
 
         public virtual void MakeADeal()
