@@ -26,15 +26,10 @@ namespace VehicleTemplate
             if (Car.Type == "Electricity" || Car.Type == "Eco") return CountThePrice() * 0.18;
             else return 0;
         }
-        protected override double PollutionAmount(Car car, double distance)
+        protected override double PollutionAmount()
         {
-            if (car.Type == "Electricity" || car.Type == "Eco") return 0;
-            else return distance * car.Engine * 0.02;
-        }
-        public override void MakeADeal()
-        {
-            base.MakeADeal();
-            Console.WriteLine("How much polution is made to nature - " + PollutionAmount(Car, Distance));
+            if (Car.Type == "Electricity" || Car.Type == "Eco") return 0;
+            else return Distance * Car.Engine * 0.02;
         }
     }
 }
