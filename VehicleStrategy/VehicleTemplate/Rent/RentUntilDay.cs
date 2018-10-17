@@ -4,11 +4,10 @@ using System.Text;
 
 namespace VehicleStrategy
 {
-    class RentUntilDay : IRent
+    public  class RentUntilDay : IRent
     {
         public double Time { get; set; }
         public double Distance { get; set; }
-        public bool VehileNeedFuels { get ; set; }
 
         public double Discount(IVehile vehile)
         {

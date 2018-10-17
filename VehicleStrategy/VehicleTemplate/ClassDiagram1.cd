@@ -1,30 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="VehicleStrategy.Program">
-    <Position X="13.5" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
-      <FileName>Program.cs</FileName>
-    </TypeIdentifier>
-  </Class>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="VehicleStrategy.Bicycle">
-    <Position X="1" Y="2.75" Width="1.5" />
+    <Position X="9.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABACAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Vehile\Bicycle.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="VehicleStrategy.SimpleMode">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Mode\SimpleMode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VehicleStrategy.TurboMode">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Mode\TurboMode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Class Name="VehicleStrategy.Car">
-    <Position X="3" Y="2.75" Width="1.5" />
+    <Position X="6.75" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABACAAAAAAAAAAAAAAAAAQAAAAAAAAABQAAAAAAAAA=</HashCode>
       <FileName>Vehile\Car.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="VehicleStrategy.DriveACar">
+    <Position X="6.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAgAAAAAAABQAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>DriveACar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VehicleStrategy.RideABicycle">
+    <Position X="9.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAIAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RideABicycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="VehicleStrategy.RentUntilDay">
-    <Position X="5" Y="1.75" Width="1.5" />
+    <Position X="12.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAgABAEgAAAAAAAQA=</HashCode>
       <FileName>Rent\RentUntilDay.cs</FileName>
@@ -32,62 +55,32 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="VehicleStrategy.RentUntilMonth">
-    <Position X="6.75" Y="1.75" Width="1.5" />
+    <Position X="14.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAgABAEgAAAAAAAQA=</HashCode>
       <FileName>Rent\RentUntilMonth.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="VehicleStrategy.DriveACar">
-    <Position X="5.25" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>EAAAAAAAAAAIAAAAAgAAAAAAAAQAAABAAAAAAAAAAAA=</HashCode>
-      <FileName>DriveACar.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="VehicleStrategy.RideABicycle">
-    <Position X="7.25" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>EAAAEAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>RideABicycle.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="VehicleStrategy.Ecology.SimpleMode">
-    <Position X="9" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
-      <FileName>Ecology\SimpleMode.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="VehicleStrategy.Ecology.TurboMode">
-    <Position X="11.25" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
-      <FileName>Ecology\TurboMode.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
   <Interface Name="VehicleStrategy.IVehile">
-    <Position X="1.5" Y="0.5" Width="1.5" />
+    <Position X="8" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABACAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Vehile\IVehile.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="VehicleStrategy.IRent" Collapsed="true">
-    <Position X="6" Y="0.5" Width="1.5" />
+  <Interface Name="VehicleStrategy.IMode">
+    <Position X="1.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Mode\IMode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VehicleStrategy.IRent">
+    <Position X="13.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAQA=</HashCode>
       <FileName>Rent\IRent.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="VehicleStrategy.Ecology.IMode" Collapsed="true">
-    <Position X="10.25" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
-      <FileName>Ecology\IMode.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

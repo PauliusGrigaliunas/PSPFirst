@@ -1,5 +1,4 @@
 ﻿using System;
-using VehicleStrategy.Ecology;
 
 namespace VehicleStrategy
 {
@@ -14,16 +13,16 @@ namespace VehicleStrategy
 
 
             var rentFirstCar = new DriveACar(AudiA6, new RentUntilDay(), new SimpleMode(), 10, 5);
-            rentFirstCar.ReturnVehile();
+            rentFirstCar.MakeADeal();
 
-            var rentSecondCar = new DriveACar(BMV535, new RentUntilMonth(), new SimpleMode(), 8*1440, 123);
-            rentSecondCar.ReturnVehile();
+            var rentSecondCar = new DriveACar(BMV535, new RentUntilMonth(), new TurboMode(), 8*1440, 123);
+            rentSecondCar.MakeADeal();
 
-            var rentThirdCar = new DriveACar(Tesla, new RentUntilMonth(), new SimpleMode(), 30 * 1440, 74);
-            rentThirdCar.ReturnVehile();
+            var rentThirdCar = new DriveACar(Tesla, new RentUntilMonth(), new SimpleMode(), 30*1440, 74);
+            rentThirdCar.MakeADeal();
 
             var rentFirstBicycle = new RideABicycle(BMX, new RentUntilDay(), 30);
-            rentFirstBicycle.ReturnVehile();
+            rentFirstBicycle.MakeADeal();
         }
     }
 }

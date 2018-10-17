@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using VehicleStrategy.Ecology;
 
 namespace VehicleStrategy
 {
-    class DriveACar
+    public class DriveACar
     {
         public double Distance { get; set; }
 
@@ -19,9 +18,10 @@ namespace VehicleStrategy
             _rent = rent;
             _rent.Time = time;
             _mode = mode;
+            Distance = distance;
 
         }
-        public void ReturnVehile()
+        public void MakeADeal()
         {
             
             Console.WriteLine("Name - " + _car.Name);

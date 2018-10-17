@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VehicleTemplate.SimpleMode" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Mode\SimpleMode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VehicleTemplate.Mode.TurboMode" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Mode\TurboMode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VehicleTemplate.RentBicycleUntilDay">
+    <Position X="4.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAA=</HashCode>
+      <FileName>RentVehileClasses\RentBicycleUntilDay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VehicleTemplate.RentBicycleUntilMounth">
+    <Position X="7.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAA=</HashCode>
+      <FileName>RentVehileClasses\RentBicycleUntilMounth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VehicleTemplate.RentCarUntilDay">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAIAAAAAAAAAAAAAAABAAgABAAgAAAAAAAAA=</HashCode>
+      <FileName>RentVehileClasses\RentCarUntilDay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VehicleTemplate.RentCarUntilMonth">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAIAAAAAAAAAAAAAAABAAgABAAgAAAAAAAAA=</HashCode>
+      <FileName>RentVehileClasses\RentCarUntilMonth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VehicleTemplate.RentVehile">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAABAAgAAAAgAAAAAEAQA=</HashCode>
+      <FileName>RentVehileClasses\RentVehile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VehicleTemplate.Bicycle" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Vehile\Bicycle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VehicleTemplate.Car" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAAAAAAAAAAAQAAAAAAAAABQAAAAAAAAA=</HashCode>
+      <FileName>Vehile\Car.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="VehicleTemplate.IMode" Collapsed="true">
+    <Position X="1.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Mode\IMode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VehicleTemplate.IVehile" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Vehile\IVehile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

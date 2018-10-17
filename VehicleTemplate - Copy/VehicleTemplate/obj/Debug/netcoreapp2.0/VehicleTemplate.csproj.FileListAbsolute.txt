@@ -1,0 +1,11 @@
+C:\Users\Paulius\Documents\GitHub\PSPFirst\VehicleTemplate\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleTemplate.csprojAssemblyReference.cache
+C:\Users\Paulius\Documents\GitHub\PSPFirst\VehicleTemplate\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleTemplate.csproj.CoreCompileInputs.cache
+C:\Users\Paulius\Documents\GitHub\PSPFirst\VehicleTemplate\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleTemplate.AssemblyInfoInputs.cache
+C:\Users\Paulius\Documents\GitHub\PSPFirst\VehicleTemplate\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleTemplate.AssemblyInfo.cs
+C:\Users\Paulius\Documents\GitHub\PSPFirst\VehicleTemplate\VehicleTemplate\bin\Debug\netcoreapp2.0\VehicleTemplate.deps.json
+C:\Users\Paulius\Documents\GitHub\PSPFirst\VehicleTemplate\VehicleTemplate\bin\Debug\netcoreapp2.0\VehicleTemplate.runtimeconfig.json
+C:\Users\Paulius\Documents\GitHub\PSPFirst\VehicleTemplate\VehicleTemplate\bin\Debug\netcoreapp2.0\VehicleTemplate.runtimeconfig.dev.json
+C:\Users\Paulius\Documents\GitHub\PSPFirst\VehicleTemplate\VehicleTemplate\bin\Debug\netcoreapp2.0\VehicleTemplate.dll
+C:\Users\Paulius\Documents\GitHub\PSPFirst\VehicleTemplate\VehicleTemplate\bin\Debug\netcoreapp2.0\VehicleTemplate.pdb
+C:\Users\Paulius\Documents\GitHub\PSPFirst\VehicleTemplate\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleTemplate.dll
+C:\Users\Paulius\Documents\GitHub\PSPFirst\VehicleTemplate\VehicleTemplate\obj\Debug\netcoreapp2.0\VehicleTemplate.pdb

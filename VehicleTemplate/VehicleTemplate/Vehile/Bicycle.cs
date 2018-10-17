@@ -4,17 +4,18 @@ using System.Text;
 
 namespace VehicleTemplate
 {
-    class Bicycle : IVehile
+    public class Bicycle : IVehile
     {
         public string Name { get; set; }
         public string Type { get; set; }
         public double TimeTarif { get; set; }
         public int NumberOfSeats { get; set; }
 
-        public Bicycle(string name, string type, double timeTarif, int numberOfSeats) {
+        public Bicycle(string name, string type, int numberOfSeats, double timeTarif)
+        {
             Name = name;
             Type = type;
-            TimeTarif  = timeTarif;
+            TimeTarif = timeTarif;
             NumberOfSeats = numberOfSeats;
         }
     }
